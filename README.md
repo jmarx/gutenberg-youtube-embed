@@ -1,2 +1,7 @@
-# gutenberg-youtube-embed
-A new gutenberg sidebar plugin allowing users to search the google API and add videos to their blog inside the new gutenberg editor experience.
+# Gutenberg Embed
+
+More information to come.
+
+Clone this repository to the wp-content/plugins folder of your WordPress installation and run the following commands to make it work:
+
+`npm install && npm run build`
