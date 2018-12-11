@@ -4,7 +4,7 @@
 **/
 
 <?php
-class MySettingsPage
+class Ge_Settings
 {
 	public function __construct(){
 		add_action( 'admin_menu', [ $this , 'add_options_page' ] );
@@ -79,4 +79,4 @@ class MySettingsPage
 	
 }
 if( is_admin() )
-    $my_settings_page = new MySettingsPage();
+    $my_settings_page = new Ge_Settings();
