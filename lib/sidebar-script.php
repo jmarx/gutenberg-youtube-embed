@@ -7,6 +7,7 @@
  */
 
 function dropit_sidebar_script_register() {
+	$api_keys = get_option('ge_options');
 	wp_localize_script( 'dropit-sidebar', 'api_keys', array(
 		'google' => $api_keys['google-api-key']
 	) );
